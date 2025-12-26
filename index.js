@@ -6,6 +6,7 @@ const morgan = require('morgan');
 const jwt = require('jsonwebtoken');
 const router = require('./routes/router');
 const admin = require('firebase-admin');
+var serviceAccount = require('./config/myrealestateproject-45319-firebase-adminsdk-fbsvc-88cdefd105.json');
 
 
 admin.initializeApp({
